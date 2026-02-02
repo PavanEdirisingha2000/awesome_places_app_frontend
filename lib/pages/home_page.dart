@@ -1,5 +1,7 @@
-import 'package:awesome_places_app/pages/home_page/widgets/category_card.dart';
-import 'package:awesome_places_app/pages/home_page/widgets/double_sized_card.dart';
+import 'package:awesome_places_app/widgets/reusable/homepage/category_card.dart';
+import 'package:awesome_places_app/widgets/reusable/homepage/double_sized_card.dart';
+import 'package:awesome_places_app/pages/natural_wonders_page.dart';
+import 'package:awesome_places_app/pages/night_life_page.dart';
 import 'package:awesome_places_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -84,13 +86,23 @@ class HomePage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    CategoryCard(
-                      title: "Natural Wonders",
-                      backgroundColor: categoryOneColor,
+                    GestureDetector(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => NaturalWondersPage(),),);
+                      },
+                      child: CategoryCard(
+                        title: "Natural Wonders",
+                        backgroundColor: categoryOneColor,
+                      ),
                     ),
-                    CategoryCard(
-                      title: "Nightlife",
-                      backgroundColor: categoryOneColor,
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => NightLifePage(),));
+                      },
+                      child: CategoryCard(
+                        title: "Nightlife",
+                        backgroundColor: categoryOneColor,
+                      ),
                     ),
                   ],
                 ),
@@ -98,9 +110,14 @@ class HomePage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    CategoryCard(
-                      title: "Landmarks",
-                      backgroundColor: categoryTwoColor,
+                    GestureDetector(
+                      onTap: (){
+                        
+                      },
+                      child: CategoryCard(
+                        title: "Landmarks",
+                        backgroundColor: categoryTwoColor,
+                      ),
                     ),
                     CategoryCard(
                       title: "Cultural",

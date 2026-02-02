@@ -1,9 +1,9 @@
-import 'package:awesome_places_app/pages/natural_wonders_page/widgets/post_card.dart';
+import 'package:awesome_places_app/widgets/reusable/night_life_page/night_life_post_card.dart';
 import 'package:awesome_places_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
-class NaturalWondersPage extends StatelessWidget {
-  const NaturalWondersPage({super.key});
+class NightLifePage extends StatelessWidget {
+  const NightLifePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,9 +16,9 @@ class NaturalWondersPage extends StatelessWidget {
           },
         ),
         title: Text(
-          "Natural Wonders",
+          "Nightlife",
           style: TextStyle(
-            color: MainNathuralWondersColor,
+            color: MainNightLifeColor,
             fontSize: 30,
             fontWeight: FontWeight.w700,
           ),
@@ -39,23 +39,19 @@ class NaturalWondersPage extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20),
-              PostCard(
-                postTitle: "Nature Wonders Place-1",
-                postImage: "assets/nature1.png",
+
+              NightLifePostCard(
+                postTitle: "Nightlife Place-1",
+                postImage: "assets/night1.jpg",
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
               ),
+
               SizedBox(height: 20),
-              PostCard(
-                postTitle: "Nature Wonders Place-2",
-                postImage: "assets/nature2.png",
-                postDescription:
-                    "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
-              ),
-              SizedBox(height: 20),
-              PostCard(
-                postTitle: "Nature Wonders Place-3",
-                postImage: "assets/nature3.png",
+
+              NightLifePostCard(
+                postTitle: "Nightlife Place-2",
+                postImage: "assets/night2.jpg",
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
               ),

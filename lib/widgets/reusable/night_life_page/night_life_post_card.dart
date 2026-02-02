@@ -1,24 +1,16 @@
 import 'package:awesome_places_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
-class PostCard extends StatelessWidget {
-  final String postTitle;
-  final String postImage;
-  final String postDescription;
+class NightLifePostCard extends StatelessWidget {
+  final String postTitle ;
+  final String postImage ;
+  final String postDescription ;
 
-  const PostCard({
-    super.key,
-    required this.postTitle,
-    required this.postImage,
-    required this.postDescription,
-  });
+  const NightLifePostCard({super.key,required this.postTitle,required this.postImage,required this.postDescription});
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: double.infinity,
-      height: 350,
-      child: Column(
+    return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
@@ -26,7 +18,7 @@ class PostCard extends StatelessWidget {
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
-              color: subNathuralWondersColor,
+              color: subNightLifeColor,
             ),
           ),
           SizedBox(height: 10),
@@ -35,6 +27,8 @@ class PostCard extends StatelessWidget {
             width: double.infinity,
             height: 200,
             fit: BoxFit.cover,
+            
+            
           ),
           SizedBox(height: 10),
           Text(
@@ -46,7 +40,7 @@ class PostCard extends StatelessWidget {
             ),
           ),
         ],
-      ),
-    );
+      );
+    
   }
 }
