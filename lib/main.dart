@@ -1,6 +1,4 @@
 import 'package:awesome_places_app/pages/home_page.dart';
-import 'package:awesome_places_app/pages/natural_wonders_page.dart';
-import 'package:awesome_places_app/pages/night_life_page.dart';
 import 'package:flutter/material.dart';
 
 void main (){
@@ -16,8 +14,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home:
       HomePage(),
-      //NaturalWondersPage(),
-      //NightLifePage(),
     );
   }
 }

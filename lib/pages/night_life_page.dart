@@ -1,4 +1,4 @@
-import 'package:awesome_places_app/widgets/reusable/night_life_page/night_life_post_card.dart';
+import 'package:awesome_places_app/widgets/shared/post_card.dart';
 import 'package:awesome_places_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -40,20 +40,22 @@ class NightLifePage extends StatelessWidget {
               ),
               SizedBox(height: 20),
 
-              NightLifePostCard(
+              PostCard(
                 postTitle: "Nightlife Place-1",
                 postImage: "assets/night1.jpg",
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                isBorderRounded: true,
               ),
 
               SizedBox(height: 20),
 
-              NightLifePostCard(
+              PostCard(
                 postTitle: "Nightlife Place-2",
                 postImage: "assets/night2.jpg",
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                isBorderRounded: true,
               ),
             ],
           ),

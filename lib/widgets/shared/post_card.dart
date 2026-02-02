@@ -1,12 +1,19 @@
 import 'package:awesome_places_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
-class NightLifePostCard extends StatelessWidget {
-  final String postTitle ;
-  final String postImage ;
-  final String postDescription ;
+class PostCard extends StatelessWidget {
+  final String postTitle;
+  final String postImage;
+  final String postDescription;
+  final bool isBorderRounded;
 
-  const NightLifePostCard({super.key,required this.postTitle,required this.postImage,required this.postDescription});
+  const PostCard({
+    super.key,
+    required this.postTitle,
+    required this.postImage,
+    required this.postDescription,
+    required this.isBorderRounded,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -18,18 +25,28 @@ class NightLifePostCard extends StatelessWidget {
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
-              color: subNightLifeColor,
+              color: subNathuralWondersColor,
             ),
           ),
           SizedBox(height: 10),
+          isBorderRounded ?
+          ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: Image.asset(
+              postImage,
+              width: double.infinity,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
+          )
+          :
           Image.asset(
             postImage,
             width: double.infinity,
             height: 200,
             fit: BoxFit.cover,
-            
-            
           ),
+          
           SizedBox(height: 10),
           Text(
             postDescription,

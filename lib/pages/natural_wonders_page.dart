@@ -1,4 +1,4 @@
-import 'package:awesome_places_app/widgets/reusable/natural_wonders_page/natural_wonders_post_card.dart';
+import 'package:awesome_places_app/widgets/shared/post_card.dart';
 import 'package:awesome_places_app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -33,23 +33,26 @@ class NaturalWondersPage extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20),
-              NaturalWondersPostCard(
+              PostCard(
                 postTitle: "Nature Wonders Place-1",
                 postImage: "assets/nature1.png",
+                isBorderRounded: false,
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
               ),
               SizedBox(height: 20),
-              NaturalWondersPostCard(
+              PostCard(
                 postTitle: "Nature Wonders Place-2",
                 postImage: "assets/nature2.png",
+                isBorderRounded: false,
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
               ),
               SizedBox(height: 20),
-              NaturalWondersPostCard(
+              PostCard(
                 postTitle: "Nature Wonders Place-3",
                 postImage: "assets/nature3.png",
+                isBorderRounded: false,
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
               ),
