@@ -1,4 +1,5 @@
-import 'package:awesome_places_app/pages/home_screen/home_screen.dart';
+import 'package:awesome_places_app/pages/home_page/home_page.dart';
+import 'package:awesome_places_app/pages/natural_wonders_page/natural_wonders_page.dart';
 import 'package:flutter/material.dart';
 
 void main (){
@@ -12,7 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Awesome Places App",
       debugShowCheckedModeBanner: false,
-      home:HomeScreen(),
+      home:
+      //HomePage(),
+      NaturalWondersPage(),
     );
   }
 }
