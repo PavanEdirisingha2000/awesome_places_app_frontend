@@ -1,3 +1,4 @@
+import 'package:awesome_places_app/pages/landmarks_Page.dart';
 import 'package:awesome_places_app/widgets/reusable/homepage/category_card.dart';
 import 'package:awesome_places_app/widgets/reusable/homepage/double_sized_card.dart';
 import 'package:awesome_places_app/pages/natural_wonders_page.dart';
@@ -112,7 +113,7 @@ class HomePage extends StatelessWidget {
                   children: [
                     GestureDetector(
                       onTap: (){
-                        
+                        Navigator.push(context, MaterialPageRoute(builder:  (context) => LandmarksPage(),),);
                       },
                       child: CategoryCard(
                         title: "Landmarks",

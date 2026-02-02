@@ -42,6 +42,7 @@ class NightLifePage extends StatelessWidget {
 
               PostCard(
                 postTitle: "Nightlife Place-1",
+                titleColor: subNightLifeColor,
                 postImage: "assets/night1.jpg",
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
@@ -52,6 +53,7 @@ class NightLifePage extends StatelessWidget {
 
               PostCard(
                 postTitle: "Nightlife Place-2",
+                titleColor: subNightLifeColor,
                 postImage: "assets/night2.jpg",
                 postDescription:
                     "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",

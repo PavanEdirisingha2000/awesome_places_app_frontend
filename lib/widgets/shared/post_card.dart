@@ -6,6 +6,7 @@ class PostCard extends StatelessWidget {
   final String postImage;
   final String postDescription;
   final bool isBorderRounded;
+  final Color titleColor;
 
   const PostCard({
     super.key,
@@ -13,6 +14,7 @@ class PostCard extends StatelessWidget {
     required this.postImage,
     required this.postDescription,
     required this.isBorderRounded,
+    required this.titleColor,
   });
 
   @override
@@ -25,7 +27,7 @@ class PostCard extends StatelessWidget {
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
-              color: subNathuralWondersColor,
+              color: titleColor,
             ),
           ),
           SizedBox(height: 10),

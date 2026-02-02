@@ -35,6 +35,7 @@ class NaturalWondersPage extends StatelessWidget {
               SizedBox(height: 20),
               PostCard(
                 postTitle: "Nature Wonders Place-1",
+                titleColor: subNathuralWondersColor,
                 postImage: "assets/nature1.png",
                 isBorderRounded: false,
                 postDescription:
@@ -43,6 +44,7 @@ class NaturalWondersPage extends StatelessWidget {
               SizedBox(height: 20),
               PostCard(
                 postTitle: "Nature Wonders Place-2",
+                titleColor: subNathuralWondersColor,
                 postImage: "assets/nature2.png",
                 isBorderRounded: false,
                 postDescription:
@@ -51,6 +53,7 @@ class NaturalWondersPage extends StatelessWidget {
               SizedBox(height: 20),
               PostCard(
                 postTitle: "Nature Wonders Place-3",
+                titleColor: subNathuralWondersColor,
                 postImage: "assets/nature3.png",
                 isBorderRounded: false,
                 postDescription:
