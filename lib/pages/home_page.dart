@@ -1,3 +1,4 @@
+import 'package:awesome_places_app/pages/booking_page/book_a_tour_page.dart';
 import 'package:awesome_places_app/pages/cultural_page.dart' show CulturalPage;
 import 'package:awesome_places_app/pages/landmarks_Page.dart';
 import 'package:awesome_places_app/widgets/reusable/homepage/category_card.dart';
@@ -133,7 +134,11 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
                 SizedBox(height: 20),
-                DoubleSizedCard(title: "Book For A Ride Today!"),
+                GestureDetector
+                (onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => BookATourPage(),));
+                },
+                  child: DoubleSizedCard(title: "Book For A Ride Today!")),
               ],
             ),
           ),

@@ -90,6 +90,7 @@ class CulturalPage extends StatelessWidget {
                children: [
                  CustomButton(
                   buttonText: "Submit",
+                  buttonColor: categoryThreeColor,
                  ),
                ],
              ),
