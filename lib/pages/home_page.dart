@@ -1,3 +1,4 @@
+import 'package:awesome_places_app/pages/cultural_page.dart' show CulturalPage;
 import 'package:awesome_places_app/pages/landmarks_Page.dart';
 import 'package:awesome_places_app/widgets/reusable/homepage/category_card.dart';
 import 'package:awesome_places_app/widgets/reusable/homepage/double_sized_card.dart';
@@ -120,9 +121,14 @@ class HomePage extends StatelessWidget {
                         backgroundColor: categoryTwoColor,
                       ),
                     ),
-                    CategoryCard(
-                      title: "Cultural",
-                      backgroundColor: categoryTwoColor,
+                    GestureDetector
+                    (onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => CulturalPage(),));
+                    },
+                      child: CategoryCard(
+                        title: "Cultural",
+                        backgroundColor: categoryTwoColor,
+                      ),
                     ),
                   ],
                 ),
