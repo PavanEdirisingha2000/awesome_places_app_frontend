@@ -152,7 +152,18 @@ By studying this project, you will understand:
 
 ## 📸 Screenshots
 
-_Add screenshots of your app here_
+<p align="center">
+  <img src="assets/scrennshots/1.png" width="200" alt="Screenshot 1">
+  <img src="assets/scrennshots/2.png" width="200" alt="Screenshot 2">
+  <img src="assets/scrennshots/3.png" width="200" alt="Screenshot 3">
+  <img src="assets/scrennshots/4.png" width="200" alt="Screenshot 4">
+</p>
+
+<p align="center">
+  <img src="assets/scrennshots/5.png" width="200" alt="Screenshot 5">
+  <img src="assets/scrennshots/6.png" width="200" alt="Screenshot 6">
+  <img src="assets/scrennshots/7.png" width="200" alt="Screenshot 7">
+</p>
 
 ## 🎓 Learning Notes
 
@@ -177,10 +188,6 @@ flutter pub get
 ```bash
 flutter run
 ```
-
-## 📸 Screenshots
-
-_Add screenshots of your app here_
 
 ## 🤝 Contributing
 
