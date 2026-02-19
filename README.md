@@ -2,7 +2,22 @@
 
 A comprehensive Flutter learning project demonstrating professional folder structure, reusable widgets, and modern Flutter development practices.
 
-## 📱 About This Project
+## � Screenshots
+
+<p align="center">
+  <img src="assets/scrennshots/1.png" width="200" alt="Screenshot 1">
+  <img src="assets/scrennshots/2.png" width="200" alt="Screenshot 2">
+  <img src="assets/scrennshots/3.png" width="200" alt="Screenshot 3">
+  <img src="assets/scrennshots/4.png" width="200" alt="Screenshot 4">
+</p>
+
+<p align="center">
+  <img src="assets/scrennshots/5.png" width="200" alt="Screenshot 5">
+  <img src="assets/scrennshots/6.png" width="200" alt="Screenshot 6">
+  <img src="assets/scrennshots/7.png" width="200" alt="Screenshot 7">
+</p>
+
+## �📱 About This Project
 
 This project is a **learning-focused Flutter application** designed to master essential Flutter concepts and best practices. Built around a tourism/travel app theme, it showcases how to structure a scalable Flutter application with emphasis on:
 
@@ -149,21 +164,6 @@ By studying this project, you will understand:
 - ✅ Theme and color management
 - ✅ Best practices for file and folder naming
 - ✅ Widget composition and abstraction
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="assets/scrennshots/1.png" width="200" alt="Screenshot 1">
-  <img src="assets/scrennshots/2.png" width="200" alt="Screenshot 2">
-  <img src="assets/scrennshots/3.png" width="200" alt="Screenshot 3">
-  <img src="assets/scrennshots/4.png" width="200" alt="Screenshot 4">
-</p>
-
-<p align="center">
-  <img src="assets/scrennshots/5.png" width="200" alt="Screenshot 5">
-  <img src="assets/scrennshots/6.png" width="200" alt="Screenshot 6">
-  <img src="assets/scrennshots/7.png" width="200" alt="Screenshot 7">
-</p>
 
 ## 🎓 Learning Notes
 
